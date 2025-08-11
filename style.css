@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#f9ca24;
+    --yellow:#00C0FF;
 }
 
 *{
@@ -30,7 +30,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background:#222;
+    background:#3A2B70;
 }
 
 html::-webkit-scrollbar-thumb{
@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#111 !important;
+    background:#1E1649 !important;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -50,7 +50,7 @@ section{
 
 .btn{
     padding:.7rem 3rem !important;
-    background:#333 !important;
+    background:#3A2B70 !important;
     color:#fff !important;
     cursor: pointer;
     margin-top: 1rem;
@@ -91,7 +91,7 @@ header{
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#1a1a1a;
+    background:#3A2B70;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,6 +104,7 @@ header .user img{
     width:17rem;
     border-radius: 50%;
     object-fit: cover;
+margin-top: 10rem;
     margin-bottom: 1rem;
     border:.7rem solid var(--yellow);
 }
@@ -133,7 +134,7 @@ header .navbar ul li a{
     display: block;
     padding:1.5rem 10rem ;
     margin:1.5rem ;
-    background:#333;
+    background:#1E1649;
     color:#fff;
     font-size: 1.5rem !important;
     border-radius: 5rem;
@@ -218,10 +219,11 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box{
     width:20rem;
-    background:#222;
+    background:#3A2B70;
     text-align: center;
     padding: 2rem;
     margin:2rem;
+border-radius: 5px;
 }
 
 .about .row .counter .box span{
@@ -253,7 +255,7 @@ header .navbar ul li a:hover{
 
 .education .box-container .box span.year{
     font-size: 1.3rem;
-    background:#222;
+    background:#3A2B70;
     color:#fff;
     border-radius: 5rem;
     padding:.5rem 2.5rem;
